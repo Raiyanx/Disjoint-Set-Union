@@ -6,6 +6,6 @@ Disjoint Set Union, also known as DSU, is a structure that can help to implement
 
 (ii) Tell whether two objects belong to the same set or not.
 
-It may seem easy to implement this by for example just using a set structure. But in reality, that implementation will take O(nlogn) and O(n^2) time which will soon turn out to be too much for the computer to handle if a lot of operations are performed. 
+It may seem easy to implement this by for example just using a set structure. But in reality, that implementation will take O(nlogn) and O(n^2) time for the above operations which will soon turn out to be too much for the computer to handle if a lot of operations are performed. 
 
 The DSU structure enables us 
